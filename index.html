@@ -14,162 +14,126 @@
 
 <body>
     <div class="container">
-
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
+                <a href="#"
+                    class="navbar-brand d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <img src="assets/wikipedia.png" alt="wikipedia logo" srcset="" style="height: 3em; width: 3em;">
+                    <span class="fs-4 vstack">
+                        <img src="assets/wikipedia-wordmark-en.svg" alt="wikipedia workmark" srcset=""
+                            style="width: 4.5em;">
+                        <img src="assets/wikipedia-tagline-en.svg" alt="wikipedia tagline" srcset=""
+                            style="width: 4em;">
+                    </span>
+                </a>
+                <div class="hstack gap-3">
+                    <form class="d-flex p-2" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse p-2 ms-auto" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Create Account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Login</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    ...
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
-
         <div class="row">
             <div class="col-3">
                 <div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary">
                     <a href="/"
                         class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                        <svg class="bi pe-none me-2" width="40" height="32">
-                            <use xlink:href="#bootstrap"></use>
-                        </svg>
                         <span class="fs-4">Main menu</span>
                     </a>
                     <hr>
                     <ul class="nav nav-pills flex-column mb-auto">
                         <li class="nav-item">
                             <a href="#" class="nav-link active" aria-current="page">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#home"></use>
-                                </svg>
                                 Main page
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#speedometer2"></use>
-                                </svg>
                                 Contents
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#table"></use>
-                                </svg>
                                 Current events
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#grid"></use>
-                                </svg>
                                 Random article
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
                                 About Wikipedia
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
                                 Contact us
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
                                 Donate
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
                                 Contribute
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
                                 Help
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
                                 Learn to edit
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
                                 Community portal
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
                                 Recent changes
                             </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link link-body-emphasis">
-                                <svg class="bi pe-none me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
                                 Upload file
                             </a>
                         </li>
@@ -217,7 +181,7 @@
                 <hr>
                 <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg text-center">
                     <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Welcome to Wikipedia</h1>
-                    <p class="lead"> the free encyclopedia that anyone can edit.<br>6,712,911 articles in English</p>
+                    <p class="lead">the free encyclopedia that anyone can edit<br>6,712,911 articles in English</p>
                 </div>
                 <div class="row">
                     <div class="col">
@@ -315,9 +279,6 @@
 
                 <a href="/"
                     class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32">
-                        <use xlink:href="#bootstrap"></use>
-                    </svg>
                 </a>
 
                 <ul class="nav col-md-4 justify-content-end">
